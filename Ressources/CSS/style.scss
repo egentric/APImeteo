@@ -1,0 +1,105 @@
+// RESET CSS
+// ===============================================================
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// VARIABLES
+// ================================================================
+
+$orange: rgb(253, 165, 2);
+$gris: rgb(83, 83, 83);
+$bleu : rgb(65, 90, 145);
+$bleuF : rgb(4,31, 62);
+
+// GLOBAL
+// ================================================================
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $gris;
+}
+
+h4{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.navbarbg {
+    background-color: $bleuF!important;
+
+    .nameColor{
+        color: white;
+    }
+    .btn{
+        color: white;
+        border-color: white;
+    }
+    .btn:hover{
+        background-color: $bleu;
+    }
+}
+
+.picto {
+    height: 30px;
+    margin: 10px;
+}
+.picto1 {
+    height: 60px;
+    margin: 10px;
+}
+
+.ville{
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.weather-icon{
+    height: 80px;
+    margin: 10px;
+}
+
+.map{
+    border: 1px solid $bleuF;
+    margin: 10px;
+    margin-bottom: 25px;
+
+}
+
+.photo{
+    
+    margin: 10px;
+    max-width: 90%;
+
+}
+
+.imgVille{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer{
+
+    background-color: $bleuF!important;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height: 15px;
+
+    
+    
+  
+        p {
+            // padding-top: 15px;
+            text-align: center;
+        font-size: 0.7rem;
+        color: white;
+    }
+    
+}
